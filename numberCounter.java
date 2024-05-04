@@ -10,6 +10,9 @@ public class numberCounter {
         // Using a for loop to count from 1 to the entered number
         for (int i = 1; i <= number; i++) {
             System.out.println(i);  // Print each number on a new line
+            // i =1
+            //i = 2
+            //
         }
 
         scanner.close();  // Close the scanner to free up resources
