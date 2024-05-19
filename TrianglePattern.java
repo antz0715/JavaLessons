@@ -1,6 +1,6 @@
 public class TrianglePattern {
     public static void main(String[] args) {
-        int numberOfRows = 5;  // Set the number of rows for the triangle
+        int numberOfRows = 10;  // Set the number of rows for the triangle
 
         // Loop through each row
         for (int i = 1; i <= numberOfRows; i++) {
