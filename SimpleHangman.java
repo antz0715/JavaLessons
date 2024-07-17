@@ -9,11 +9,9 @@ public class SimpleHangman {
         for (int i = 0; i < word.length(); i++) {
             guessedWord[i] = '_';
         }
-        
         // Number of wrong guesses allowed
         int maxWrongGuesses = 6;
         int wrongGuesses = 0;
-        
         // Create a Scanner object to read user input
         Scanner scanner = new Scanner(System.in);
         
@@ -35,6 +33,19 @@ public class SimpleHangman {
                     isLetterInWord = true;
                 }
             }
+            
+
+
+
+
+
+
+
+
+
+
+
+
             
             // If the guessed letter is not in the word, increment wrongGuesses
             if (!isLetterInWord) {
