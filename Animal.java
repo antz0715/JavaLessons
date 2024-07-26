@@ -1,26 +1,29 @@
-// Define the Animal class with basic attributes and methods
 class Animal {
-    String name;  // Name of the animal
-    String sound; // Sound the animal makes
+    String name;
+    String sound;
 
-    // Constructor to initialize the Animal object
     public Animal(String name, String sound) {
         this.name = name;
         this.sound = sound;
     }
 
-    // Method to output the sound the animal makes
-    void makeSound() {
+    void makeSound(){
         System.out.println(name + " says: " + sound);
     }
+    void playing(){
+        System.out.println(name + " is playing "  );
 
-    // Main method to run the program
+    }
+
+
     public static void main(String[] args) {
-        Animal dog = new Animal("Buddy", "Woof");  // Create an Animal object for a dog
-        Animal cat = new Animal("Whiskers", "Meow");  // Create an Animal object for a cat
+        Animal dog = new Animal("Buddy", "Woof");
+        Animal dinosaur = new Animal("Rex", "ROAR");
 
-        // Call the makeSound method on each Animal object
         dog.makeSound();
-        cat.makeSound();
+        dinosaur.makeSound();
+
+
     }
 }
+    

@@ -10,7 +10,7 @@ public class SimpleCalculator {
         System.out.print("Enter the second number: ");
         double num2 = scanner.nextDouble();
         
-        System.out.print("Enter an operator (+, -, *, /): ");
+        System.out.print("Enter an operator (+, -, *, /, %): ");
         char operator = scanner.next().charAt(0);
         
         scanner.close();
@@ -34,6 +34,8 @@ public class SimpleCalculator {
                 } else {
                     return num1 / num2;
                 }
+            case '%':
+                return num1 % num2;
             default:
                 System.out.println("Invalid operator.");
                 return Double.NaN; // Not a Number for invalid operation
